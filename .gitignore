@@ -1,0 +1,43 @@
+# Build artifacts
+.gradle/
+**/.gradle/
+build/
+**/build/
+out/
+**/out/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Java
+*.class
+*.jar
+!**/gradle-wrapper.jar
+HELP.md
+
+# IDE
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+**/.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Claude Code
+.claude/
+**/.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other branches' content (not part of Backend)
+shopping_web/
