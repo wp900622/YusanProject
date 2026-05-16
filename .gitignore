@@ -1,0 +1,44 @@
+# Build artifacts
+.gradle/
+**/.gradle/
+build/
+**/build/
+out/
+**/out/
+bin/
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Java
+*.class
+*.jar
+HELP.md
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+**/.vscode/
+
+# Claude Code
+.claude/
+**/.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# All branches' content (main is intentionally empty)
+Bank/
+DB/
+shopping_web/
